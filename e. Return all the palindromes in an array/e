@@ -1,0 +1,6 @@
+let palindromes = function(arr) {
+    return arr.filter(str => str === str.split('').reverse().join(''));
+};
+console.log(palindromes(["madam", "hello", "racecar", "world"])); // Output: ["madam", "racecar"]
+
+// IIFE

@@ -1,0 +1,2 @@
+let sumOfArray = arr => arr.reduce((sum, num) => sum + num, 0);
+console.log(sumOfArray([1, 2, 3, 4, 5])); // Output: 15
